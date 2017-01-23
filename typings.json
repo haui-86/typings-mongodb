@@ -1,9 +1,6 @@
 {
   "name": "mongodb",
   "main": "mongodb.d.ts",
-  "dependencies": {
-    "es6-promise": "registry:common/es6-promise#4.0.0+20161003185919"
-  },
   "globalDependencies": {
     "node": "registry:dt/node#6.0.0+20170106143713"
   }

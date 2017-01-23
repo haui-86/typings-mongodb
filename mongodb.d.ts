@@ -10,7 +10,6 @@
 
 import { EventEmitter } from "events";
 import { Readable, Writable } from "stream";
-import { Promise } from "es6-promise";
 
 // Class documentation : http://mongodb.github.io/node-mongodb-native/2.1/api/MongoClient.html
 export class MongoClient {
