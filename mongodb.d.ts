@@ -1284,7 +1284,7 @@ export interface CommandCursor extends Readable {
     // http://mongodb.github.io/node-mongodb-native/2.1/api/CommandCursor.html#rewind
     rewind(): CommandCursor;
     // http://mongodb.github.io/node-mongodb-native/2.1/api/CommandCursor.html#setEncoding
-    setEncoding(encoding: string): void;
+    setEncoding(encoding: string): this;
     // http://mongodb.github.io/node-mongodb-native/2.1/api/CommandCursor.html#setReadPreference
     setReadPreference(readPreference: string | ReadPreference): CommandCursor;
     // http://mongodb.github.io/node-mongodb-native/2.1/api/CommandCursor.html#toArray
