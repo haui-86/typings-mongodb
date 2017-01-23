@@ -1134,6 +1134,7 @@ export interface Cursor extends Readable {
     // http://mongodb.github.io/node-mongodb-native/2.1/api/Cursor.html#comment
     comment(value: string): Cursor;
     // http://mongodb.github.io/node-mongodb-native/2.1/api/Cursor.html#count
+    count(): Promise<number>;
     count(applySkipLimit: boolean, callback: MongoCallback<number>): void;
     count(applySkipLimit: boolean, options?: CursorCommentOptions): Promise<number>;
     count(applySkipLimit: boolean, options: CursorCommentOptions, callback: MongoCallback<number>): void;
